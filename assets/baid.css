@@ -13,6 +13,9 @@
     padding-top:0;
   }
 }
+.jumbotron-main {
+  background-color:#666;
+}
 .jumbotron-top {
   background-image:url(header.jpg);
 }
