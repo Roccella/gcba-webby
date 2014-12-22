@@ -1,0 +1,140 @@
+.main-container {
+  padding:0;
+}
+.jumbotron {
+  margin:0;
+}
+.jumbotron .container {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+@media (max-width:480px) {
+  .jumbotron-top .container {
+    padding-top:0;
+  }
+}
+.jumbotron-top {
+  background-image:url(header.jpg);
+}
+.jumbotron-benefits {
+  background-image:url(header2.jpg);
+}
+.jumbotron-tech {
+  background-image:url(header3.jpg);
+}
+.jumbotron-foot {
+  background-image:url(header4.jpg);
+}
+.jumbotron-top h1 {
+  font-size:128px;
+  line-height:128px;
+}
+.jumbotron-top p.lead {
+  font-size:32px;
+  line-height:48px;
+}
+.jumbotron-top hr {
+  margin:60px 0;
+  opacity:.4;
+}
+.charlie .col-md-3,
+.charlie .col-md-6 {
+  padding:0;
+}
+.charlie img {
+  border-radius: 8px;
+  margin:0 auto;
+  position:relative;
+  z-index:1;
+}
+.charlie .h1 {
+  margin-bottom:7px;
+}
+.middle {
+  width:100%;
+  padding:0 15%;
+  overflow:auto;
+  /*text-align:left;*/
+}
+.middle h4 {
+  margin-bottom:0;
+}
+.middle p {
+  margin-bottom:32px;
+}
+.bracket1,
+.bracket2 {
+  width: 80px;
+  height: 290px;
+  position: absolute;
+}
+.bracket1 {
+  left: -10px;
+  background: url(bracket1.png) no-repeat center center;
+}
+.bracket2 {
+  right: -10px;
+  background: url(bracket2.png) no-repeat center center;
+}
+@media (max-width:992px) {
+  .bracket1,
+  .bracket2 {
+    display:none;
+  }
+  .charlie .col-md-3,
+  .charlie .col-md-6,
+  .jumbotron-benefits .col-md-6 {
+    margin-bottom:60px;
+  }
+}
+.jumbotron-dashboard,
+.jumbotron-dashboard .container {
+  padding-bottom:0;
+}
+.shortcut-row {
+  margin-top:24px;
+  margin-bottom:96px;
+}
+.shortcut-row p {
+  font-size:16px;
+}
+.shortcut {
+  background:transparent !important;
+}
+.jumbotron-tech img {
+  border-radius:8px;
+  opacity:.8;
+  margin-top:24px;
+}
+.footer {
+  padding:96px 0 192px 0;
+}
+.bg-primary {
+  background-color: #fffcea;
+  color: #5f4600;
+}
+.bg-success {
+  background-color: #f6faeb;
+  color: #456225;
+}
+.bg-info {
+  background-color: #edf8f8;
+  color: #0d605c;
+}
+.bg-warning {
+  background-color: #fff5eb;
+  color: #844c26;
+}
+.bg-danger {
+  background-color: #faedec;
+  color: #6a2121;
+}
+.label-blue {
+  background-color:#4f65b7;
+}
+.label-pink {
+  background-color:#ac4c7b;
+}
+.label-violet {
+  background-color:#88459e;
+}
